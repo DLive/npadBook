@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{9ead9422-359a-4a63-b919-6846e803567f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dock">
+      <UniqueIdentifier>{fea30853-387c-41e8-a8cb-d677c6df4f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="itbook">
+      <UniqueIdentifier>{06936ce1-5f77-40bc-b4c0-fd78b992193e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{fdbef86f-c92f-48b6-9df7-d08e95f17522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqllit">
+      <UniqueIdentifier>{7fb77099-302a-4e9c-9fc9-cba743ed9ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{14819c61-684a-4cc7-94fc-2054685d0781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArticleManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DLDlgSizeing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="npadBook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginDefinition.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="baseSet.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccommon.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="Conndb.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="CppSQLite3U.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLclassnamedlg.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLcodeLight.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLeasySearch.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLitbookTree.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLlistdrop.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLrtfTohtml.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLsyn.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLupClass.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="DLupToDistancedlg.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="editBar.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDB.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="localSearchResult.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="myClassTreeDlg.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyDlg.cpp">
+      <Filter>itbook</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\shell.c">
+      <Filter>sqllit</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite3.c">
+      <Filter>sqllit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="npadBook.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\file0.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\idr_itbo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\itbook.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\itbookDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\itbooki.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\npadBook.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="json\json_internalarray.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="sqlite\sqlite3.def">
+      <Filter>sqllit</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArticleManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DLDlgSizeing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="npadBook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="menuCmdID.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Notepad_plus_msgs.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginDefinition.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginInterface.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scintilla.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingFeature\Docking.h">
+      <Filter>interface\dock</Filter>
+    </ClInclude>
+    <ClInclude Include="baseSet.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccommon.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="CommResours.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="Conndb.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="CppSQLite3U.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLclassnamedlg.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLcodeLight.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLeasySearch.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLitbookTree.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLlistdrop.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLrtfTohtml.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLsyn.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLupClass.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="DLupToDistancedlg.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="editBar.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDB.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="localSearchResult.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="myClassTreeDlg.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="propertyDlg.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>itbook</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>sqllit</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3ext.h">
+      <Filter>sqllit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="npadBook.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
